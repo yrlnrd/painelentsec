@@ -2,7 +2,7 @@
 ## Sempre iniciar no terminal com  
 ##       'streamlit run main.py'
 ## para a criar a aplicação em localhost.
-
+streamlit run my_app.py --server.port=80
 ##### Importações
 import streamlit as st
 import pandas as pd
