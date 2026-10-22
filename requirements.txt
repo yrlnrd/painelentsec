@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+plotly_calplot
+pydeck
+matplotlib==3.9.2
+wordcloud==1.9.4
+re
+scikit-learn[alldeps]
