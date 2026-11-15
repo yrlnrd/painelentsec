@@ -44,7 +44,7 @@ if file_upload:
 
     # Leitura dos dados
     df = pd.read_excel(file_upload)
-    df['data'] = pd.to_datetime(df['data'], format="%d/%m/%Y").dt.date
+    df['data'] = pd.to_datetime(df['data'], format="ISO8601").dt.date
 
     #-------------------------------------------------------------
 # PANORAMA INICIAL ############################################
